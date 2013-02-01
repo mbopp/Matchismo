@@ -17,7 +17,6 @@
 		6318924116BC3345002373B6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6318924016BC3345002373B6 /* Default@2x.png */; };
 		6318924316BC3346002373B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6318924216BC3346002373B6 /* Default-568h@2x.png */; };
 		6318924616BC3346002373B6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6318924416BC3346002373B6 /* MainStoryboard_iPhone.storyboard */; };
-		6318924916BC3346002373B6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6318924716BC3346002373B6 /* MainStoryboard_iPad.storyboard */; };
 		6318924C16BC3346002373B6 /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318924B16BC3346002373B6 /* CardGameViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +35,6 @@
 		6318924016BC3345002373B6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6318924216BC3346002373B6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6318924516BC3346002373B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		6318924816BC3346002373B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		6318924A16BC3346002373B6 /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
 		6318924B16BC3346002373B6 /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,7 +86,6 @@
 				6318923B16BC3345002373B6 /* CardGameAppDelegate.h */,
 				6318923C16BC3345002373B6 /* CardGameAppDelegate.m */,
 				6318924416BC3346002373B6 /* MainStoryboard_iPhone.storyboard */,
-				6318924716BC3346002373B6 /* MainStoryboard_iPad.storyboard */,
 				6318924A16BC3346002373B6 /* CardGameViewController.h */,
 				6318924B16BC3346002373B6 /* CardGameViewController.m */,
 				6318923316BC3345002373B6 /* Supporting Files */,
@@ -167,7 +164,6 @@
 				6318924116BC3345002373B6 /* Default@2x.png in Resources */,
 				6318924316BC3346002373B6 /* Default-568h@2x.png in Resources */,
 				6318924616BC3346002373B6 /* MainStoryboard_iPhone.storyboard in Resources */,
-				6318924916BC3346002373B6 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,14 +197,6 @@
 				6318924516BC3346002373B6 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		6318924716BC3346002373B6 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6318924816BC3346002373B6 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -315,6 +303,7 @@
 				6318925116BC3346002373B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
