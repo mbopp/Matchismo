@@ -8,9 +8,14 @@
 
 #import "CardMatchingGame.h"
 
+#define MATCH_BONUS 4
+#define MISMATCH_PENALTY 2
+#define FLIP_COST 1
+
 @interface CardMatchingGame()
 @property (strong, nonatomic) NSMutableArray *cards;
 @property (nonatomic) int score;
+@property (nonatomic) NSString *message;
 @end
 
 @implementation CardMatchingGame
@@ -44,9 +49,6 @@
     return (index < self.cards.count) ? self.cards[index] : nil;
 }
 
-#define MATCH_BONUS 4
-#define MISMATCH_PENALTY 2
-#define FLIP_COST 1
 
 - (void)flipCardAtIndex:(NSUInteger)index
 {
@@ -61,14 +63,17 @@
                         otherCard.unplayable = YES;
                         card.unplayable = YES;
                         self.score += matchScore * MATCH_BONUS;
+                        self.message = [NSString stringWithFormat:@"Matched %@ & %@ for %d points", card.contents, otherCard.contents, matchScore * MATCH_BONUS];
                     } else {
                         otherCard.faceUp = NO;
                         self.score -= MISMATCH_PENALTY;
+                        self.message = [NSString stringWithFormat:@"%@ and %@ don't match! %d point penalty!", card.contents, otherCard.contents, MISMATCH_PENALTY];
                     }
                     break;
                 }
             }
             self.score -= FLIP_COST;
+            
         }
         card.faceUp = !card.faceUp;
     }
