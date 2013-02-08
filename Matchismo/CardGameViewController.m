@@ -61,5 +61,12 @@
     [self updateUI];
 }
 
+- (IBAction)clickDeal:(UIButton *)sender {
+    self.game = nil;
+    self.scoreLabel.text = @"Score: 0";
+    self.flipCount = 0;
+    [self updateUI];
+}
+
 
 @end
