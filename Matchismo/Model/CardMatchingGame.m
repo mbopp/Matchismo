@@ -16,6 +16,7 @@
 @property (strong, nonatomic) NSMutableArray *cards;
 @property (nonatomic) int score;
 @property (nonatomic) NSString *message;
+@property (nonatomic) enum GameMode gameMode;
 @end
 
 @implementation CardMatchingGame
@@ -26,7 +27,7 @@
     return _cards;
 }
 
-- (id)initWithCardCount:(NSUInteger)count usingDeck:(Deck *)deck
+- (id)initWithCardCount:(NSUInteger)count andGameMode:(enum GameMode)gameMode usingDeck:(Deck *)deck
 {
     self = [super init];
     
@@ -41,6 +42,8 @@
         }
     }
     
+    self.gameMode = gameMode;
+    
     return self;
 }
 
@@ -53,25 +56,50 @@
 - (void)flipCardAtIndex:(NSUInteger)index
 {
     Card *card = [self cardAtIndex:index];
+    NSMutableArray *playedCards = [[NSMutableArray alloc] init];
     
     if (!card.isUnplayable) {
         if (!card.isFaceUp) {
+            
             for (Card *otherCard in self.cards) {
+            
                 if (otherCard.isFaceUp && !otherCard.isUnplayable) {
-                    int matchScore = [card match:@[otherCard]];
-                    if (matchScore) {
-                        otherCard.unplayable = YES;
-                        card.unplayable = YES;
-                        self.score += matchScore * MATCH_BONUS;
-                        self.message = [NSString stringWithFormat:@"Matched %@ & %@ for %d points", card.contents, otherCard.contents, matchScore * MATCH_BONUS];
-                    } else {
-                        otherCard.faceUp = NO;
-                        self.score -= MISMATCH_PENALTY;
-                        self.message = [NSString stringWithFormat:@"%@ and %@ don't match! %d point penalty!", card.contents, otherCard.contents, MISMATCH_PENALTY];
-                    }
-                    break;
+                    
+                    // create an array of just the cards to match
+                    [playedCards addObject:otherCard];
+                
                 }
+            
             }
+            
+            if (playedCards.count == self.gameMode) {
+             
+                NSLog(@"Game mode set to %d", self.gameMode);
+                
+                int matchScore = [card match:playedCards];
+                
+                if (matchScore) {
+                    for (Card *playCard in playedCards) {
+                        playCard.unplayable = YES;
+                    }
+                    card.unplayable = YES;
+                    
+                    self.score += matchScore * MATCH_BONUS;
+                    self.message = [NSString stringWithFormat:@"Matched %@ %@ for %d points", card.contents, [playedCards componentsJoinedByString:@" "], matchScore * MATCH_BONUS];
+                } else {
+                    for (Card *playCard in playedCards) {
+                        playCard.unplayable = NO;
+                        playCard.faceUp = NO;
+                    }
+                    card.unplayable = NO;
+                    card.faceUp = NO;
+                    
+                    self.score -= MISMATCH_PENALTY;
+                    self.message = [NSString stringWithFormat:@"%@ %@ don't match! %d point penalty!", card.contents, [playedCards componentsJoinedByString:@" "], MISMATCH_PENALTY];
+                }                
+                
+            }
+            
             self.score -= FLIP_COST;
             
         }

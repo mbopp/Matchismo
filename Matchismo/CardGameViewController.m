@@ -17,6 +17,7 @@
 @property (strong, nonatomic) CardMatchingGame *game;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property (weak, nonatomic) IBOutlet UILabel *pointDescriptionLabel;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *gameModeButton;
 @end
 
 @implementation CardGameViewController
@@ -25,8 +26,18 @@
 - (CardMatchingGame *)game
 {
     if (!_game) _game = [[CardMatchingGame alloc] initWithCardCount:self.cardButtons.count
+                                                        andGameMode:[self gameMode]
                                                           usingDeck:[[PlayingCardDeck alloc] init]];
     return _game;
+}
+
+- (enum GameMode)gameMode
+{
+    if (self.gameModeButton.selectedSegmentIndex == 0) {
+        return twoCardMatch;
+    } else {
+        return threeCardMatch;
+    }
 }
 
 - (void)setCardButtons:(NSArray *)cardButtons
@@ -37,22 +48,33 @@
 
 - (void)updateUI
 {
+    BOOL playStarted = NO;
+    UIImage *cardBackImage = [UIImage imageNamed:@"rdg-logo_square.png"];
+    
     for (UIButton *cardButton in self.cardButtons) {
         Card *card = [self.game cardAtIndex:[self.cardButtons indexOfObject:cardButton]];
         [cardButton setTitle:card.contents forState:UIControlStateSelected];
         [cardButton setTitle:card.contents forState:UIControlStateSelected|UIControlStateDisabled];
         cardButton.selected = card.isFaceUp;
+        if (card.isFaceUp) {
+            playStarted = YES;
+            [cardButton setImage:nil forState:UIControlStateNormal];
+        } else {
+            [cardButton setImage:cardBackImage forState:UIControlStateNormal];
+        }
         cardButton.enabled = !card.isUnplayable;
         cardButton.alpha = card.isUnplayable ? 0.3 : 1.0;
     }
     self.scoreLabel.text = [NSString stringWithFormat:@"Score: %d", self.game.score];
     self.pointDescriptionLabel.text = self.game.message;
+
+    self.gameModeButton.enabled = !playStarted;
+    
 }
 
 - (void)setFlipCount:(int)flipCount {
     _flipCount = flipCount;
     self.flipsLabel.text = [NSString stringWithFormat:@"Flips: %d", self.flipCount];
-    NSLog(@"flips updated to %d", self.flipCount);
 }
 
 - (IBAction)flipCard:(UIButton *)sender {
@@ -65,8 +87,13 @@
     self.game = nil;
     self.scoreLabel.text = @"Score: 0";
     self.flipCount = 0;
+    
     [self updateUI];
 }
 
+- (IBAction)changeGameMode:(UISegmentedControl *)sender {
+    self.game = nil;
+    [self updateUI];
+}
 
 @end

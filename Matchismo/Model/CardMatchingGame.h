@@ -11,7 +11,13 @@
 
 @interface CardMatchingGame : NSObject
 
+enum GameMode {
+    twoCardMatch = 1,
+    threeCardMatch = 2
+};
+
 - (id)initWithCardCount:(NSUInteger)cardCount
+            andGameMode:(enum GameMode)gameMode
               usingDeck:(Deck *)deck;
 
 - (void)flipCardAtIndex:(NSUInteger)index;

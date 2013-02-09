@@ -22,6 +22,7 @@
 		6332F65F16BDA41B005082EC /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332F65E16BDA41B005082EC /* Deck.m */; };
 		6332F66216BDA42C005082EC /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332F66116BDA42C005082EC /* PlayingCard.m */; };
 		6332F66516BDA43F005082EC /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 6332F66416BDA43F005082EC /* PlayingCardDeck.m */; };
+		63C1380E16C6F1BC00C45757 /* rdg-logo_square.png in Resources */ = {isa = PBXBuildFile; fileRef = 63C1380D16C6F1BC00C45757 /* rdg-logo_square.png */; };
 		63E4FD5716C4284300C8D90B /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E4FD5616C4284300C8D90B /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		6332F66116BDA42C005082EC /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
 		6332F66316BDA43F005082EC /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
 		6332F66416BDA43F005082EC /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
+		63C1380D16C6F1BC00C45757 /* rdg-logo_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rdg-logo_square.png"; sourceTree = "<group>"; };
 		63E4FD5516C4284300C8D90B /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
 		63E4FD5616C4284300C8D90B /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +106,7 @@
 				6332F66616BDA456005082EC /* Model */,
 				6318924A16BC3346002373B6 /* CardGameViewController.h */,
 				6318924B16BC3346002373B6 /* CardGameViewController.m */,
+				63C1380D16C6F1BC00C45757 /* rdg-logo_square.png */,
 				6318923316BC3345002373B6 /* Supporting Files */,
 			);
 			path = Matchismo;
@@ -197,6 +200,7 @@
 				6318924116BC3345002373B6 /* Default@2x.png in Resources */,
 				6318924316BC3346002373B6 /* Default-568h@2x.png in Resources */,
 				6318924616BC3346002373B6 /* MainStoryboard_iPhone.storyboard in Resources */,
+				63C1380E16C6F1BC00C45757 /* rdg-logo_square.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

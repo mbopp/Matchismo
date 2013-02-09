@@ -18,7 +18,9 @@
                                     <constraint firstAttribute="height" constant="81" id="MRt-i9-saZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -35,7 +37,9 @@
                                     <constraint firstAttribute="width" constant="64" id="PBt-Dk-Wew"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -49,7 +53,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xbZ-2c-PkB">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -66,7 +72,9 @@
                                     <constraint firstAttribute="width" constant="64" id="2Ym-2Q-DBy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -80,7 +88,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rtX-pG-eLe">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -94,7 +104,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZW-pj-qBY">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -108,7 +120,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVA-Vj-Ypl">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -125,7 +139,9 @@
                                     <constraint firstAttribute="height" constant="77" id="6tT-kC-24n"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -142,7 +158,9 @@
                                     <constraint firstAttribute="height" constant="81" id="DZb-pK-Pwv"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -156,7 +174,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhr-Vv-Yct">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -170,7 +190,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1RY-8Y-5NO">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -184,7 +206,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eil-jw-6Zw">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -198,7 +222,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCl-R8-2la">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -215,7 +241,9 @@
                                     <constraint firstAttribute="height" constant="80" id="Nbj-1k-IY2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -229,7 +257,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OjZ-Ji-frz">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -243,7 +273,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ki-VP-P1b">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
-                                <state key="normal" title="">
+                                <inset key="contentEdgeInsets" minX="0.0" minY="2" maxX="0.0" maxY="2"/>
+                                <inset key="imageEdgeInsets" minX="3" minY="10" maxX="3" maxY="10"/>
+                                <state key="normal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -289,20 +321,29 @@
                                     <action selector="clickDeal:" destination="2" eventType="touchUpInside" id="dHO-uF-QbT"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="sue-PD-M4I">
+                                <segments>
+                                    <segment title="2 card"/>
+                                    <segment title="3 card"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeGameMode:" destination="2" eventType="valueChanged" id="pLZ-Ib-9Kn"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="h3d-Iw-F6T" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="0Oi-ee-vMO"/>
                             <constraint firstItem="hKT-mH-WpS" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="0kK-0e-Jjs"/>
                             <constraint firstItem="5ga-Vt-IJw" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="21e-OL-OU6"/>
+                            <constraint firstItem="sue-PD-M4I" firstAttribute="leading" secondItem="hKT-mH-WpS" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="5aQ-JC-LyB"/>
                             <constraint firstItem="iZW-pj-qBY" firstAttribute="leading" secondItem="5ga-Vt-IJw" secondAttribute="leading" type="default" id="61x-gk-801"/>
                             <constraint firstItem="OjZ-Ji-frz" firstAttribute="leading" secondItem="1RY-8Y-5NO" secondAttribute="leading" type="default" id="6tX-fB-yyR"/>
                             <constraint firstItem="1RY-8Y-5NO" firstAttribute="top" secondItem="cVA-Vj-Ypl" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="83H-qU-1et"/>
-                            <constraint firstItem="iZW-pj-qBY" firstAttribute="baseline" secondItem="rtX-pG-eLe" secondAttribute="baseline" type="default" id="8ST-6J-aah"/>
                             <constraint firstItem="qFA-Tx-tJx" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="9zd-nD-w6h"/>
                             <constraint firstItem="goh-Tl-gpq" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Ang-lf-cmA"/>
+                            <constraint firstItem="sue-PD-M4I" firstAttribute="leading" secondItem="3ki-VP-P1b" secondAttribute="leading" type="default" id="BTF-sz-X6m"/>
                             <constraint firstItem="uaU-Ja-tpZ" firstAttribute="top" secondItem="3ki-VP-P1b" secondAttribute="top" type="default" id="EJS-37-eaN"/>
-                            <constraint firstItem="mhr-Vv-Yct" firstAttribute="baseline" secondItem="qFA-Tx-tJx" secondAttribute="baseline" type="default" id="EWK-1H-ljG"/>
                             <constraint firstItem="iZW-pj-qBY" firstAttribute="leading" secondItem="rtX-pG-eLe" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="F3m-8G-YT0"/>
                             <constraint firstAttribute="trailing" secondItem="Ts1-cp-LQM" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="F3t-C8-Sju"/>
                             <constraint firstItem="iZW-pj-qBY" firstAttribute="top" secondItem="JDd-fU-0OA" secondAttribute="top" type="default" id="GQz-Wr-dXy"/>
@@ -322,11 +363,11 @@
                             <constraint firstItem="5ga-Vt-IJw" firstAttribute="leading" secondItem="goh-Tl-gpq" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="SfT-kw-eXJ"/>
                             <constraint firstItem="uaU-Ja-tpZ" firstAttribute="top" secondItem="mhr-Vv-Yct" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="T0K-3g-auE"/>
                             <constraint firstItem="uaU-Ja-tpZ" firstAttribute="leading" secondItem="hCl-R8-2la" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="TKs-9H-GFz"/>
+                            <constraint firstAttribute="trailing" secondItem="sue-PD-M4I" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="TaX-Lf-6I1"/>
                             <constraint firstItem="hCl-R8-2la" firstAttribute="top" secondItem="qFA-Tx-tJx" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="WSK-1e-qb2"/>
                             <constraint firstItem="1RY-8Y-5NO" firstAttribute="leading" secondItem="eil-jw-6Zw" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="XEK-d3-XGa"/>
                             <constraint firstItem="OjZ-Ji-frz" firstAttribute="leading" secondItem="3ki-VP-P1b" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Z6E-Hb-kFz"/>
                             <constraint firstAttribute="trailing" secondItem="cVA-Vj-Ypl" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="avg-nU-3l0"/>
-                            <constraint firstItem="eil-jw-6Zw" firstAttribute="baseline" secondItem="mhr-Vv-Yct" secondAttribute="baseline" type="default" id="bUS-Vg-ReT"/>
                             <constraint firstItem="tIt-3j-rOT" firstAttribute="top" secondItem="OjZ-Ji-frz" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="bb9-kd-P0H"/>
                             <constraint firstItem="qFA-Tx-tJx" firstAttribute="top" secondItem="rtX-pG-eLe" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="bfA-Sj-lVl"/>
                             <constraint firstItem="rtX-pG-eLe" firstAttribute="centerY" secondItem="iZW-pj-qBY" secondAttribute="centerY" type="default" id="boS-ME-2lw"/>
@@ -334,7 +375,6 @@
                             <constraint firstItem="OjZ-Ji-frz" firstAttribute="centerY" secondItem="hCl-R8-2la" secondAttribute="centerY" type="default" id="bxV-05-Ucb"/>
                             <constraint firstItem="3ki-VP-P1b" firstAttribute="top" secondItem="eil-jw-6Zw" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="cqu-6y-vMG"/>
                             <constraint firstItem="rtX-pG-eLe" firstAttribute="top" secondItem="goh-Tl-gpq" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="dr5-vB-ZDT"/>
-                            <constraint firstItem="JDd-fU-0OA" firstAttribute="baseline" secondItem="iZW-pj-qBY" secondAttribute="baseline" type="default" id="eJK-XK-lI0"/>
                             <constraint firstItem="mhr-Vv-Yct" firstAttribute="centerY" secondItem="qFA-Tx-tJx" secondAttribute="centerY" type="default" id="f0u-kQ-1OD"/>
                             <constraint firstAttribute="bottom" secondItem="kMx-bN-85i" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="fOr-u4-Xxj"/>
                             <constraint firstItem="cVA-Vj-Ypl" firstAttribute="centerY" secondItem="iZW-pj-qBY" secondAttribute="centerY" type="default" id="gBh-1E-YCp"/>
@@ -343,6 +383,7 @@
                             <constraint firstItem="rtX-pG-eLe" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="jLj-MC-80G"/>
                             <constraint firstItem="JDd-fU-0OA" firstAttribute="top" secondItem="cVA-Vj-Ypl" secondAttribute="top" type="default" id="jYZ-Zt-dHS"/>
                             <constraint firstAttribute="bottom" secondItem="Ts1-cp-LQM" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="k8L-hB-6Ep"/>
+                            <constraint firstItem="Ts1-cp-LQM" firstAttribute="top" secondItem="sue-PD-M4I" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="kZh-Dh-rE7"/>
                             <constraint firstItem="tIt-3j-rOT" firstAttribute="top" secondItem="uaU-Ja-tpZ" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="kbD-Ar-TQE"/>
                             <constraint firstItem="hCl-R8-2la" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="lGD-Jf-Frr"/>
                             <constraint firstItem="cVA-Vj-Ypl" firstAttribute="top" secondItem="xbZ-2c-PkB" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="lIj-mz-mMm"/>
@@ -350,27 +391,24 @@
                             <constraint firstAttribute="trailing" secondItem="tIt-3j-rOT" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="mph-Ey-HPL"/>
                             <constraint firstItem="JDd-fU-0OA" firstAttribute="leading" secondItem="iZW-pj-qBY" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="nYi-lS-FyA"/>
                             <constraint firstItem="iZW-pj-qBY" firstAttribute="top" secondItem="5ga-Vt-IJw" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="oFm-Sb-Tz7"/>
-                            <constraint firstItem="uaU-Ja-tpZ" firstAttribute="trailing" secondItem="hKT-mH-WpS" secondAttribute="trailing" type="default" id="qDz-gd-my8"/>
                             <constraint firstItem="eil-jw-6Zw" firstAttribute="centerY" secondItem="1RY-8Y-5NO" secondAttribute="centerY" type="default" id="rK8-aA-fnw"/>
                             <constraint firstItem="xbZ-2c-PkB" firstAttribute="leading" secondItem="h3d-Iw-F6T" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="roj-Pf-WXo"/>
                             <constraint firstItem="tIt-3j-rOT" firstAttribute="top" secondItem="hCl-R8-2la" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="s7x-rx-OQ0"/>
-                            <constraint firstItem="uaU-Ja-tpZ" firstAttribute="baseline" secondItem="hCl-R8-2la" secondAttribute="baseline" type="default" id="s8h-5m-bT2"/>
                             <constraint firstItem="qFA-Tx-tJx" firstAttribute="centerY" secondItem="eil-jw-6Zw" secondAttribute="centerY" type="default" id="sCm-ll-uZ0"/>
                             <constraint firstAttribute="trailing" secondItem="xbZ-2c-PkB" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="sdw-2E-7eh"/>
                             <constraint firstItem="mhr-Vv-Yct" firstAttribute="top" secondItem="iZW-pj-qBY" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="tHD-VG-ZMY"/>
                             <constraint firstItem="cVA-Vj-Ypl" firstAttribute="leading" secondItem="xbZ-2c-PkB" secondAttribute="leading" type="default" id="uvO-sA-3gF"/>
-                            <constraint firstItem="3ki-VP-P1b" firstAttribute="baseline" secondItem="hCl-R8-2la" secondAttribute="baseline" type="default" id="vMd-Za-fb2"/>
                             <constraint firstItem="tIt-3j-rOT" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="vW9-XW-f7O"/>
                             <constraint firstItem="JDd-fU-0OA" firstAttribute="leading" secondItem="h3d-Iw-F6T" secondAttribute="leading" type="default" id="vmg-W3-h4J"/>
                             <constraint firstItem="tIt-3j-rOT" firstAttribute="top" secondItem="3ki-VP-P1b" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="vuz-XH-Cs7"/>
                             <constraint firstItem="OjZ-Ji-frz" firstAttribute="top" secondItem="1RY-8Y-5NO" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="wes-rk-eSy"/>
                             <constraint firstItem="kMx-bN-85i" firstAttribute="trailing" secondItem="hKT-mH-WpS" secondAttribute="trailing" type="default" id="wjB-9r-rJK"/>
-                            <constraint firstItem="OjZ-Ji-frz" firstAttribute="baseline" secondItem="hCl-R8-2la" secondAttribute="baseline" type="default" id="xpK-6b-u5k"/>
                             <constraint firstAttribute="trailing" secondItem="OjZ-Ji-frz" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="y51-K9-guH"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="flipsLabel" destination="kMx-bN-85i" id="UiL-NJ-tVA"/>
+                        <outlet property="gameModeButton" destination="sue-PD-M4I" id="G1S-NS-IVN"/>
                         <outlet property="pointDescriptionLabel" destination="tIt-3j-rOT" id="a1l-Rg-Sfd"/>
                         <outlet property="scoreLabel" destination="Ts1-cp-LQM" id="K1r-dT-lK8"/>
                         <outletCollection property="cardButtons" destination="goh-Tl-gpq" id="dqh-SQ-aSr"/>
@@ -399,9 +437,11 @@
         <class className="CardGameViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/CardGameViewController.h"/>
             <relationships>
+                <relationship kind="action" name="changeGameMode:" candidateClass="UISegmentedControl"/>
                 <relationship kind="action" name="clickDeal:" candidateClass="UIButton"/>
                 <relationship kind="action" name="flipCard:" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="flipsLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="gameModeButton" candidateClass="UISegmentedControl"/>
                 <relationship kind="outlet" name="pointDescriptionLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="scoreLabel" candidateClass="UILabel"/>
                 <relationship kind="outletCollection" name="cardButtons" candidateClass="UIButton"/>
