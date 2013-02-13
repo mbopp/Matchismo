@@ -17,7 +17,6 @@
 @property (strong, nonatomic) CardMatchingGame *game;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property (weak, nonatomic) IBOutlet UILabel *pointDescriptionLabel;
-@property (weak, nonatomic) IBOutlet UISegmentedControl *gameModeButton;
 @end
 
 @implementation CardGameViewController
@@ -33,11 +32,8 @@
 
 - (enum GameMode)gameMode
 {
-    if (self.gameModeButton.selectedSegmentIndex == 0) {
-        return twoCardMatch;
-    } else {
-        return threeCardMatch;
-    }
+    // Only going to have two card match at this point, remove option for three
+    return twoCardMatch;
 }
 
 - (void)setCardButtons:(NSArray *)cardButtons
@@ -67,8 +63,6 @@
     }
     self.scoreLabel.text = [NSString stringWithFormat:@"Score: %d", self.game.score];
     self.pointDescriptionLabel.text = self.game.message;
-
-    self.gameModeButton.enabled = !playStarted;
     
 }
 
