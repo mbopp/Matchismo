@@ -1,18 +1,18 @@
 //
-//  GameResultsViewController.m
+//  GameSetViewController.m
 //  Matchismo
 //
 //  Created by Michael Bopp on 2/13/13.
 //  Copyright (c) 2013 Michael Bopp. All rights reserved.
 //
 
-#import "GameResultsViewController.h"
+#import "GameSetViewController.h"
 
-@interface GameResultsViewController ()
+@interface GameSetViewController ()
 
 @end
 
-@implementation GameResultsViewController
+@implementation GameSetViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

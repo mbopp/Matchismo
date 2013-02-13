@@ -1,5 +1,5 @@
 //
-//  GameResultsViewController.h
+//  GameSetViewController.h
 //  Matchismo
 //
 //  Created by Michael Bopp on 2/13/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GameResultsViewController : UIViewController
+@interface GameSetViewController : UIViewController
 
 @end

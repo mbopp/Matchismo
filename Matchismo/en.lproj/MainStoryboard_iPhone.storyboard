@@ -434,10 +434,10 @@
             </objects>
             <point key="canvasLocation" x="98" y="-279"/>
         </scene>
-        <!--Game Results View Controller - Results-->
+        <!--Game Set View Controller - Results-->
         <scene sceneID="O0K-0P-Zzr">
             <objects>
-                <viewController id="cjF-PD-AR1" customClass="GameResultsViewController" sceneMemberID="viewController">
+                <viewController id="cjF-PD-AR1" customClass="GameSetViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MA7-jJ-JPI">
                         <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
